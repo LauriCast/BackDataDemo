@@ -1,31 +1,34 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
   "profile": {
-    "name": "typicode"
-  }
+    "name": "Laura Castellanos",
+    "shopPlanId": [1,2,3]
+  },
+  "plans": [
+    {
+      "shopId": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "shopId": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "name": "Marineda City",
+      "categories": ["Woman", "Trf", "Man", "Kids"]
+    },
+    {
+      "id": 2,
+      "name": "Juan Florez",
+      "categories": ["Woman", "Trf", "Man"]
+    },
+    {
+      "id": 1,
+      "name": "Cuatro Caminos",
+      "categories": ["Woman", "Man", "Kids"]
+    }]
 }
